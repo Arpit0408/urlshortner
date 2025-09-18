@@ -125,7 +125,7 @@ const UrlPerformance = () => {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-900 hover:underline text-sm"
                   >
-                    {`localhost:2300/${url.short}`}
+                    {`https://urlshortner-k7bj.onrender.com/${url.short}`}
                   </a>
                 </td>
                 <td className="px-6 py-4">
