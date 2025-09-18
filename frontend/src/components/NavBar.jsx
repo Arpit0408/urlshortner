@@ -41,7 +41,9 @@ const Navbar = () => {
                   <span className="text-gray-700 font-medium">
                     Hi, {user?.user?.name || "User"}
                   </span>
-                  <button
+                <Link to="/dashboard"                   className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+                  Dashboard
+                  </Link>                  <button
         onClick={() => setShowLogout(true)}
                     className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-red-600 hover:bg-red-100 transition"
                   >
