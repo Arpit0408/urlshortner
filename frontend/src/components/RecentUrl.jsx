@@ -82,7 +82,7 @@ const recentUrls = urls?.urls?.slice(-5) || [];
                 <td className="px-6 py-4">
                   <div className="text-sm">
                     <a 
-                      href={`http://localhost:3000/${url.short}`} 
+                      href={`https://urlshortner-k7bj.onrender.com/${url.short}`} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-blue-600 hover:text-blue-900 hover:underline"
@@ -100,7 +100,7 @@ const recentUrls = urls?.urls?.slice(-5) || [];
                 </td>
                 <td className="px-6 py-4 text-sm font-medium">
                   <button
-                    onClick={() => handleCopy(`http://localhost:3000/${url.short}`, url._id)}
+                    onClick={() => handleCopy(`https://urlshortner-k7bj.onrender.com/${url.short}`, url._id)}
                     className={`inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-md shadow-sm ${
                       copiedId === url._id
                         ? 'bg-green-600 text-white hover:bg-green-700'
