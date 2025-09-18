@@ -120,7 +120,7 @@ const UrlPerformance = () => {
                 </td>
                 <td className="px-6 py-4">
                   <a
-                    href={`http://localhost:2300/${url.short}`}
+                    href={`https://urlshortner-k7bj.onrender.com/${url.short}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-900 hover:underline text-sm"
@@ -135,7 +135,7 @@ const UrlPerformance = () => {
                 </td>
                 <td className="px-6 py-4 text-sm font-medium">
                   <button
-                    onClick={() => handleCopy(`http://localhost:2300/${url.short}`, url._id)}
+                    onClick={() => handleCopy(`https://urlshortner-k7bj.onrender.com/${url.short}`, url._id)}
                     className={`inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-md shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ${
                       copiedId === url._id
                         ? 'bg-green-600 text-white hover:bg-green-700'
