@@ -11,7 +11,7 @@ import cors from "cors";
 import { attachUser } from './src/utils/attachUser.js';
 import cookieParser from 'cookie-parser';
 const app = express();
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:2300', 'https://urlshortner-nu-ten.vercel.app', 'https://urlshortner-k7bj.onrender.com'];
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:2300', 'https://urlshortner-nu-ten.vercel.app', ];
 
 app.use(cors({
   origin: function (origin, callback) {
