@@ -6,7 +6,7 @@ export const saveShortUrl = async (shortUrl, longUrl, userId) => {
     const newUrl = new urlSchema({
       full: longUrl,
       short: shortUrl,
-      userId: userId || "nouseridget",  // only add if defined
+      userId: userId,  // only add if defined
     });
 
     await newUrl.save();
