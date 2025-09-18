@@ -30,10 +30,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(attachUser)
 
-app.get('/', (req, res) => {
-    const url = req.body;
-  console.log('GET / route hit'),url;
-});
+// app.get('/', (req, res) => {
+//     const url = req.body;
+//   console.log('GET / route hit'),url;
+// });
 
 
 // create 
